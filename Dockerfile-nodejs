@@ -1,0 +1,4 @@
+FROM node:10.13-alpine
+
+RUN npm install -g create-react-app
+RUN npm install axios
